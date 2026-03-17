@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CPS | layout</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preload" href="шрифт\TTLakes-Thin.woff2" as="font">
+</head>
+<body>
+  <header class="header"> <!-- меню с картинками -->
+      <div class="header__menu menu">
+        <div class="h menu__button-catalog"><label for="toggle-aside"><img src="pictures\catalog.svg" alt="catalog"></label></div>
+        <input type="checkbox" id="toggle-aside" class="toggle-aside">
+      <aside class="aside-bar"> <!-- мой aside из второго задания-->
+        <header class="aside__header">
+          <nav class="aside__nav">
+            <div class="aside__close"><label for="toggle-aside"><img src="pictures\close.svg" alt="close button"></label></div>
+            <div class="aside__logo"><img src="pictures/logo.svg" alt="logo"></div>
+            <div class="aside__search"><img src="pictures/search.svg" alt="search"></div>
+          </nav>
+        </header>
+        <aside class="asider">
+        <img  class="highlight" src="pictures/highlight.svg" alt="highlight">
+          <ul class="asider__ul ul">
+              <li class="ul__link"><a href="#1">Ремонт техники</a></li>
+              <li class="ul__link"><a href="#2">Услуги и сервисы</a></li>
+              <li class="ul__link"><a href="#3">Корпортивным клиентам</a></li>
+              <li class="ul__link"><a href="#4">Продовцам техники</a></li>
+              <li class="ul__link"><a href="#5">Партнерам</a></li>
+              <li class="ul__link"><a href="#6">Производителям</a></li>
+              <li class="ul__link"><a href="#7">Наши сервисные центры</a></li>
+            <li class="ul__link"><a href="#8">Контакты</a></li>
+          </ul>
+        </aside>
+          <footer class="footer">
+              <div class="footer__pictures pictures">
+              <div class="pictures__telephone"><img src="pictures/telephone.svg" alt="telephone"></div>
+              <div class="pictures__chat"><img src="pictures/chat.svg" alt="chat"></div>
+              <div class="pictures__profile"><img src="pictures/profile.svg" alt="profile"></div>
+            </div>
+            <div class="footer__email">
+              <p class="footer__mail">mail@csp.com <a href="mailto:mail@csp.com"></a></p>
+            </div>
+            <div class="footer__number">
+              <p class="footer__num"><a href="tel:8 800 890 8900">8 800 890 8900</a></p>
+            </div>
+            <div class="footer__language">
+              <p class="footer__ru">RU</p>
+              <p class="footer__en">EN</p>
+              <p class="footer__ch">CH</p>
+            </div>
+          </footer>
+        </aside>
+        <div class="h menu__lstick"><img src="pictures/stick.svg" alt="stick"></div>
+        <div class="h menu__logo"><img src="pictures\logo.svg" alt="logo"></div>
+        <div class="h menu__button-telephone"><img src="pictures/telephone.svg" alt="telephone"></div>
+        <div class="h menu__button-chat"><img src="pictures/chat.svg" alt="chat"></div>
+        <div class="h menu__button-profile"><img src="pictures/profile.svg" alt="profile"></div>
+        <div class="h menu__rstick"><img src="pictures/stick.svg" alt="stick"></div>
+        <div class="h menu__button-setting"><img src="pictures/setting.svg" alt=""></div>
+        <div class="h menu__button-search"><img src="pictures/search.svg" alt=""></div>
+      </div>
+      <div class="title"><!--  Заголовок -->
+        <img src="pictures/highlight.png" alt="blue-stick" class="title__highlight">
+        <h1 class="title__h1">Услуги и сервисы</h1>
+        <div class="title__laptop-size laptop-size">
+        <div><p class="laptop-size__h2 laptop-spacing">Оставить заявку</p></div>
+        <div class="laptop-size__button-setting laptop-button laptop-spacing"><img src="pictures/setting.svg" alt=""></div>
+        <div><p class="laptop-size__h2v2 laptop-spacing">Статус ремонта</p></div>
+        <div class="laptop-size__button-search laptop-button laptop-spacing"><img src="pictures/search.svg" alt=""></div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="nav"> <!-- Навигационное меню -->
+      <div class="nav__link1 ml">Ремонтируемые бренды</div>
+      <div class="nav__link2 ml">Ремонтируемые устройства</div>
+      <div class="nav__link3 ml">Дополнительные услуги</div>
+      <div class="nav__link4 ml">Цены на услуги</div>
+      <div class="nav__link5 ml">Адреса сервисных цетров</div>
+      <div class="nav__link6 ml">Специальные цены</div>
+      <div class="nav__link7 ml">Отзывы</div>
+    </div>
+    <div class="content"> <!-- Текст с изображением -->
+      <div class="content__text">
+        <p class="content__mobile-size">Мы являемся авторизованным <br> сервисным центром по ремонту техники <br> Dell. Только у нас вы можете <br> отремонтировать свой ноутбук Dell с <br> официальной гарантией производителя.</p>
+        <p class="content__laptop-size">Мы являемся авторизованным сервисным <br> центром по ремонту техники Dell. Только у нас <br> вы можете отремонтировать свой ноутбук <br> Dell с официальной гарантией <br> производителя. <br> <br> Мы успешно работаем с 1992 года и <br> заслужили репутацию надежного партнера</p>
+        <p class="content__desktop-size">Мы являемся авторизованным сервисным центром по ремонту техники <br> Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с <br> официальной гарантией производителя. <br> <br> Мы успешно работаем с 1992 года и заслужили репутацию надежного <br> партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+          <div class="content__read-more read-more"> 
+            <img src="pictures/expand.svg" alt="expand" class="read-more__img">
+            <p class="read-more__text" >Читать далее</p>
+          </div>
+      </div>
+      <div class="content__img">
+        <img src="pictures/content.png" alt="content" class="content__picture">
+      </div>
+    </div>
+  </main>
+</body>
+</html>
